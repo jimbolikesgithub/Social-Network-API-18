@@ -29,6 +29,7 @@
             * Create `index.js` file
             * Create `thoughtRoutes.js` file
             * Create `userRoutes.js` file
+<!-- DONE -->
 7. Create `utils` folder
     * Create `data.js` file
     * Create `seed.js` file

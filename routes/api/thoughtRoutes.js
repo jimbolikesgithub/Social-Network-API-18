@@ -6,10 +6,14 @@ const {
     deletetThought
 } = require('../../controllers/thoughtController');
 
-// /api/thoughts
+// /api/thought
+// GET WORKS
 router.route('/').get(getThought).post(createThought);
 
-// /api/thoughts
+// /api/thought
+// GET WORKS
+// DELETE WORKS
+// -- DONE --
 router.route('/:thoughtId').get(getSingleThought).delete(deletetThought);
 
 module.exports = router;

@@ -9,16 +9,19 @@ const {
     removeFriend
 } = require('../../controllers/userController');
 
-// /api/users 
+// /api/user 
+// GET WORKS
 router.route('/').get(getUsers).post(createUser).put(updateUser);
 
-// /api/users/:userId
+// /api/user/:userId
+// GET WORKS
+// DELETE WORKS (but no thoughts found returns unless thoughts have been added via POST or hardcode)
 router.route('/:userId').get(getSingleUser).delete(deleteUser);
 
-// /api/users/:userId/friends
+// /api/user/:userId/friends
 router.route('/:userId/friends').post(addFriend);
 
-// /api/users/:userId/friends/:friendId
+// /api/user/:userId/friends/:friendId
 router.route('/:userId/friends/:friendId').delete(removeFriend);
 
 module.exports = router;

@@ -2,7 +2,9 @@ const express = require('express');
 const db = require('./config/connection');
 const routes = require('./routes');
 
-const cwd = process.env.PORT || 3001;
+const cwd = process.cwd();
+
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 // Note: not necessary for the Express server to function. This just helps indicate what activity's server is running in the terminal.
@@ -20,3 +22,6 @@ db.once('open', () => {
         console.log(`Api server for ${challenge} running on port ${PORT}!`)
     })
 })
+
+// `npm run seed`
+// `npm run dev`

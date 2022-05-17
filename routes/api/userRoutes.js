@@ -11,6 +11,8 @@ const {
 
 // /api/user 
 // GET WORKS
+// POST WORKS
+// PUT WORKS
 router.route('/').get(getUsers).post(createUser).put(updateUser);
 
 // /api/user/:userId

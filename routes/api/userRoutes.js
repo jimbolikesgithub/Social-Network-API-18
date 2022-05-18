@@ -21,9 +21,11 @@ router.route('/').get(getUsers).post(createUser).put(updateUser);
 router.route('/:userId').get(getSingleUser).delete(deleteUser);
 
 // /api/user/:userId/friends
+// WORKS
 router.route('/:userId/friends').post(addFriend);
 
 // /api/user/:userId/friends/:friendId
+// 
 router.route('/:userId/friends/:friendId').delete(removeFriend);
 
 module.exports = router;

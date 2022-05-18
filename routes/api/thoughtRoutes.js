@@ -8,6 +8,7 @@ const {
 
 // /api/thought
 // GET WORKS
+// POST WORKS
 router.route('/').get(getThought).post(createThought);
 
 // /api/thought
@@ -17,3 +18,5 @@ router.route('/').get(getThought).post(createThought);
 router.route('/:thoughtId').get(getSingleThought).delete(deletetThought);
 
 module.exports = router;
+
+// DONE

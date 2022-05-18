@@ -1,6 +1,7 @@
 # Social-Network-API-18
 
---- A challenge using MongoDB ---
+--- A challenge using MongoDB was enjoyable. Using express routes has become more easy and useful. Though, I'm looking forward to learning
+graphQL as well. ---
 
 1st things first
 ----------
@@ -52,11 +53,11 @@ package.json
 
 GitHub 
 ----------
-<br/>
+![Github](https://github.com/jimbolikesgithub/Social-Network-API-18/)<br/>
 
 Screenshot - 
 ----------
-
+![social-network-screenshot](https://user-images.githubusercontent.com/97565085/168955071-b295f356-bfc4-47bd-bd28-c1390d7c2e40.png)
 
 Acknowledgements
 ----------------
